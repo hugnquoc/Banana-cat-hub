@@ -714,17 +714,49 @@ function CheckLevel()
             NameMon = "Serpent Hunter"
             CFrameQ = CFrame.new(- 16665.19140625, 104.59640502929688, 1579.6943359375)
             CFrameMon = CFrame.new(- 16621.4140625, 121.40631103515625, 1290.6881103515625)
-        elseif v7 == 2575 or (v7 <= 2599 or (SelectMonster == "Skull Slayer" or v7 == 2600)) then
-            Ms = "Skull Slayer"
-            NameQuest = "TikiQuest3"
-            QuestLv = 2
-            NameMon = "Skull Slayer"
-            CFrameQ = CFrame.new(- 16665.19140625, 104.59640502929688, 1579.6943359375)
-            CFrameMon = CFrame.new(- 16811.5703125, 84.625244140625, 1542.235107421875)
+           elseif (MyLevel >= 2575 and MyLevel <= 2599) or SelectMonster == "Skull Slayer" then
+                Mon = "Skull Slayer"
+                LevelQuest = 2
+                NameQuest = "TikiQuest3"
+                NameMon = "Skull Slayer"
+                CFrameQuest = CFrame.new(-16665.1914, 104.596405, 1579.69434, 0.951068401, -0, -0.308980465, 0, 1, -0, 0.308980465, 0, 0.951068401)
+                CFrameMon = CFrame.new(-16855.043, 122.457253, 1478.15308, -0.999392271, 0, -0.0348687991, 0, 1, 0, 0.0348687991, 0, -0.999392271)
+elseif (MyLevel >= 2600 and MyLevel <= 2624) or SelectMonster == "Reef Bandit" then
+    Mon = "Reef Bandit"
+    LevelQuest = 1
+    NameQuest = "SubmergedQuest1"
+    NameMon = "Reef Bandit"
+    CFrameQuest = CFrame.new(10882.264, -2086.322, 10034.226)
+    CFrameMon   = CFrame.new(10736.6191, -2087.8439, 9338.4882)
+
+elseif (MyLevel >= 2625 and MyLevel <= 2649) or SelectMonster == "Coral Pirate" then
+    Mon = "Coral Pirate"
+    LevelQuest = 2
+    NameQuest = "SubmergedQuest1"
+    NameMon = "Coral Pirate"
+    CFrameQuest = CFrame.new(10882.264, -2086.322, 10034.226)
+    CFrameMon   = CFrame.new(10965.1025, -2158.8842, 9177.2597)
+
+elseif (MyLevel >= 2650 and MyLevel <= 2674) or SelectMonster == "Sea Chanter" then
+    Mon = "Sea Chanter"
+    LevelQuest = 1
+    NameQuest = "SubmergedQuest1"
+    NameMon = "Sea Chanter"
+    CFrameQuest = CFrame.new(10882.264, -2086.322, 10034.226)
+    CFrameMon   = CFrame.new(10621.0342, -2087.8440, 10102.0332)
+
+elseif (MyLevel >= 2675 and MyLevel <= 2750) or SelectMonster == "Ocean Prophet" then
+    Mon = "Ocean Prophet"
+    LevelQuest = 2
+    NameQuest = "SubmergedQuest2"
+    NameMon = "Ocean Prophet"
+    CFrameQuest = CFrame.new(10612.3848, -2087.844, 10053.8926)
+    CFrameMon   = CFrame.new(11056.1445, -2001.6717, 10117.4493)
+            end
         end
     end
-end
-if Sea1 then
+  end
+
     tableMon = {
         "Bandit",
         "Monkey",
