@@ -745,7 +745,7 @@ elseif (MyLevel >= 2650 and MyLevel <= 2674) or SelectMonster == "Sea Chanter" t
     CFrameQuest = CFrame.new(10882.264, -2086.322, 10034.226)
     CFrameMon   = CFrame.new(10621.0342, -2087.8440, 10102.0332)
 
-elseif (MyLevel >= 2675 and MyLevel <= 2750) or SelectMonster == "Ocean Prophet" then
+elseif (MyLevel >= 2675 and MyLevel <= 2800) or SelectMonster == "Ocean Prophet" then
     Mon = "Ocean Prophet"
     LevelQuest = 2
     NameQuest = "SubmergedQuest2"
