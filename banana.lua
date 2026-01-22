@@ -716,7 +716,7 @@ function CheckLevel()
             NameMon = "Serpent Hunter"
             CFrameQ = CFrame.new(- 16665.19140625, 104.59640502929688, 1579.6943359375)
             CFrameMon = CFrame.new(- 16621.4140625, 121.40631103515625, 1290.6881103515625)
-        elseif v7 == 2575 or (v7 <= 2599 or (SelectMonster == "Skull Slayer" or v7 == 2600)) then
+        elseif v7 == 2575 or (v7 <= 2800 or (SelectMonster == "Skull Slayer" or v7 == 2800)) then
             Ms = "Skull Slayer"
             NameQuest = "TikiQuest3"
             QuestLv = 2
